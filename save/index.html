@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrick Shi | Computer Engineering Portfolio</title>
+  <!-- Google Fonts for a Material look -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header-content">
+      <img src="profile.jpg" alt="Carrick Shi" class="profile-pic" />
+      <h1>Carrick Shi</h1>
+      <p class="tagline">Computer Engineering Student at University of Waterloo</p>
+      <div class="contact-info">
+        <a href="mailto:Y344SHI@demo">Y344SHI@demo</a> &bull;
+        <a href="tel:+12267529287">+1 226-752-9287</a> &bull;
+        <a href="https://github.com/Y344SHI" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- About Section -->
+    <section id="about" class="card">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Carrick Shi – a passionate computer engineering student at the University of Waterloo with a strong background in co-operative work terms spanning research, software development, and network automation. My interests include distributed machine learning, FPGA design, and developing innovative solutions across hardware and software platforms.
+      </p>
+      <h3>Skills</h3>
+      <ul class="skills">
+        <li>Distributed ML Deployment (PyTorch: FSDP, TP, DP, PP)</li>
+        <li>Desktop UI Design (PYQT, C++)</li>
+        <li>Front-End Development (JavaScript, Netsuite Oracle API)</li>
+        <li>FPGA & CPU Design (Verilog, VHDL, RISCV)</li>
+        <li>Embedded Systems (STM32, Assembly Programming)</li>
+        <li>Data Science & ML (LSTM, MySQL, Kaggle Datasets)</li>
+      </ul>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="card">
+      <h2>Work Experience</h2>
+      
+      <!-- Huawei - Latest -->
+      <div class="job">
+        <h3>Data Center Network Automation Researcher (Co-op Position)</h3>
+        <p class="job-meta">
+          Huawei Technologies Canada, Waterloo, ON &mdash; <span>Jan – Apr 2024</span>
+        </p>
+        <ul>
+          <li>
+            Explored distributed LLM training using a hybrid of model, data, and pipeline parallelism to capture and transcribe execution traces into a scalable chakra execution graph.
+          </li>
+          <li>
+            Conducted packet-level correlation analysis of PyTorch RPC SYNC calls under RESNET workloads using matplotlib for data visualization.
+          </li>
+          <li>
+            Implemented a P4 programmable switch–based dynamic congestion control algorithm, achieving 20–30% congestion reduction on distributed ML tasks.
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Huawei - Previous -->
+      <div class="job">
+        <h3>Data Center Network Automation Researcher (Co-op Position)</h3>
+        <p class="job-meta">
+          Huawei Technologies Canada, Waterloo, ON &mdash; <span>Jan – Apr 2023</span>
+        </p>
+        <ul>
+          <li>
+            Explored distributed LLM training with hybrid parallelism to generate scalable execution graphs.
+          </li>
+          <li>
+            Analyzed PyTorch RPC SYNC library calls and visualized correlation data to validate research feasibility.
+          </li>
+          <li>
+            Developed a dynamic congestion control algorithm on a P4 switch that improved distributed ML task efficiency.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Moneris -->
+      <div class="job">
+        <h3>Intern – Data Governance</h3>
+        <p class="job-meta">
+          Moneris Solutions Corp, Toronto, ON &mdash; <span>May – Aug 2022</span>
+        </p>
+        <ul>
+          <li>
+            Designed a Blockchain Quality Token System integrating a distributed ledger and server hashing for unique dataset certification.
+          </li>
+          <li>
+            Integrated NLP techniques for quality score computation by hashing deep server data directly into an enterprise AI/ML system using Java.
+          </li>
+        </ul>
+      </div>
+
+      <!-- NetDynamic Consulting -->
+      <div class="job">
+        <h3>Junior Software Developer – NetSuite</h3>
+        <p class="job-meta">
+          NetDynamic Consulting Ltd, Milton, ON &mdash; <span>Sep – Dec 2021</span>
+        </p>
+        <ul>
+          <li>
+            Developed an SSH-embedded cloud application with the Netsuite Oracle API, supporting remote client connections for over 100 clients.
+          </li>
+          <li>
+            Optimized multi-threaded file-selection logic to increase file downloading bandwidth by 10×.
+          </li>
+          <li>
+            Integrated Server GuidTokens for dynamic hotkey re-generation during REST communications to ensure secure client credentials.
+          </li>
+        </ul>
+      </div>
+
+      <!-- Hunan University -->
+      <div class="job">
+        <h3>AI Brochure Software Developer</h3>
+        <p class="job-meta">
+          Hunan University’s Electric and Sound AI Visual Research Centre, Changsha, China &mdash; <span>Feb – May 2021</span>
+        </p>
+        <ul>
+          <li>
+            Reduced ML routine runtime by 20% using pre-sorted linear classifiers with gradient descent in PyTorch.
+          </li>
+          <li>
+            Redesigned the LabelMe desktop application UI with Python PYQT to support multiple graduate student teams.
+          </li>
+          <li>
+            Authored a fully automatic, error-detection data &amp; image collection script (web crawler) that collected 100 TB of image data.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      
+      <div class="project">
+        <h3>Distributed ML &amp; Execution Graph Exploration</h3>
+        <p>
+          Developed research prototypes to explore distributed training strategies combining model, data, and pipeline parallelism. Experimented with capturing execution traces to build scalable execution graphs.
+        </p>
+        <a href="#" class="project-link" target="_blank">View Details</a>
+      </div>
+      
+      <div class="project">
+        <h3>Blockchain Quality Token System</h3>
+        <p>
+          Designed a distributed ledger system integrated with server-side hashing to generate unique certification tokens. The system also employed NLP techniques for quality score computation.
+        </p>
+        <a href="#" class="project-link" target="_blank">View Details</a>
+      </div>
+      
+      <div class="project">
+        <h3>Embedded Cloud Application</h3>
+        <p>
+          Created an SSH-embedded cloud application interfacing with Netsuite Oracle API that improved remote connection stability and boosted file download bandwidth by optimizing multi-threading.
+        </p>
+        <a href="#" class="project-link" target="_blank">View Details</a>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <div class="education-item">
+        <h3>B.A.Sc. in Computer Engineering (Honours, Co-operative Program)</h3>
+        <p class="edu-meta">
+          University of Waterloo, Waterloo, ON &mdash; <span>2020 – 2025</span>
+        </p>
+        <ul>
+          <li>GPA: 3.9/4.0</li>
+          <li>Extensive coursework in Digital Logic, Embedded Systems, Algorithms, and Software Design</li>
+          <li>Multiple co-op work terms with outstanding evaluations</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="card">
+      <h2>Contact Me</h2>
+      <form action="mailto:Y344SHI@uwaterloo.ca" method="post" enctype="text/plain">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Your Name" required />
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Your Email" required />
+        </div>
+        <div class="form-group">
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="social">
+        <p>
+          <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank">LinkedIn</a>
+          &bull;
+          <a href="https://github.com/Y344SHI" target="_blank">GitHub</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Carrick Shi. All Rights Reserved.</p>
+  </footer>
+</body>
+<style>
+    /* Base & Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background: linear-gradient(135deg, #2196F3, #21CBF3);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    margin-bottom: 20px;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: 500;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #2196F3;
+  }
+  
+  /* Main Content Cards */
+  main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+    border-bottom: 2px solid #2196F3;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  /* Job & Education Items */
+  .job, .education-item, .project {
+    margin-bottom: 30px;
+  }
+  
+  .job-meta, .edu-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .job ul,
+  .education-item ul,
+  .project ul {
+    margin-left: 20px;
+    list-style-type: disc;
+  }
+  
+  .skills {
+    margin-top: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Project Links */
+  .project-link {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-link:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Contact Form */
+  #contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  
+  #contact button {
+    background-color: #21CBF3;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+  }
+  
+  #contact button:hover {
+    background-color: #1ba1d2;
+  }
+  
+  /* Social Links */
+  .social {
+    margin-top: 20px;
+  }
+  
+  .social a {
+    color: #2196F3;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 5px;
+  }
+  
+  .social a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #777;
+    font-size: 0.9rem;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+    }
+    
+    .nav-links li {
+      margin: 10px 0;
+    }
+    
+    .card {
+      padding: 20px;
+    }
+  }
+</style>
+</html>
